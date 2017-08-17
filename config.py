@@ -10,7 +10,7 @@ examine_round = 3
 timeout = 2
 
 # 数据库链接地址
-host = '127.0.0.1'
+host = '10.120.27.11'
 
 # 数据库链接端口
 port = 3306
@@ -19,7 +19,7 @@ port = 3306
 user = 'root'
 
 # 数据库密码
-passwd = '123456'
+passwd = 'kmkm0404'
 
 # 数据库名
 DB_NAME = 'proxies'

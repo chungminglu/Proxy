@@ -108,7 +108,7 @@ def ip_test(proxies, timeout):
                                 " out of time")
                 resp_time = end -start
                 modify_score(p, 1, resp_time)
-                print 'Database test succeed: '+p+'\t'+str(resp_time)
+                print ('Database test succeed: '+p+'\t'+str(resp_time))
         except OSError:
             modify_score(p, 0, 0)
 
